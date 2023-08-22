@@ -3,10 +3,12 @@ from django.core.paginator import Paginator
 import requests
 
 from apps.settings.models import Setting
+from apps.cars.models import CarInStock
 
 # Create your views here.
 def index(request):
     setting = Setting.objects.latest('id')
+    cars = CarInStock.objects.all()
 
     api_url = 'https://auctionauto.kg/api/v1/vehicle/?find=%7B%22saleDate%22:%7B%22$ne%22:null,%22$gt%22:1692681953548%7D%7D&limit=20&page=1&sort=%7B%22sortOrder%22:-1,%22updatedAt%22:-1%7D'
     

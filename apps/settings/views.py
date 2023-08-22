@@ -59,11 +59,11 @@ def auction(request):
         page = paginator.get_page(page_number)
 
         # Передайте данные в шаблон для отображения
-        return render(request, 'index3.html', locals())
+        return render(request, 'auction.html', locals())
     else:
         # Если запрос к API завершился неудачей, обработайте ошибку
         error_message = 'Не удалось получить данные с API.'
-        return render(request, 'index3.html', locals())
+        return render(request, 'auction.html', locals())
 
 def auction_detail(request, id):
     setting = Setting.objects.latest('id')
@@ -80,7 +80,7 @@ def auction_detail(request, id):
         # print(vehicle)
 
         # Передайте данные в шаблон для отображения
-        return render(request, 'auction_detail.html', {'vehicle' : vehicle})
+        return render(request, 'auction_detail.html', locals())
 
 
 def search(request):
@@ -106,6 +106,10 @@ def search(request):
         # Если запрос к API завершился неудачей, обработайте ошибку
         error_message = 'Не удалось выполнить поиск.'
         return render(request, 'search_results.html', locals())
+
+def contact(request):
+    setting = Setting.objects.latest('id')
+    return render(request, 'contact.html', locals())
 
 def check_vehicle(request):
     api_url = 'https://auctionauto.kg/api/v1/vehicle'

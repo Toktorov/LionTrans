@@ -55,3 +55,17 @@ class CarInStock(models.Model):
     class Meta:
         verbose_name = "Авто в наличии"
         verbose_name_plural = "Авто в наличии"
+
+class CarInStockImage(models.Model):
+    car = models.ForeignKey(
+        CarInStock, on_delete=models.CASCADE,
+        related_name='car_images',
+        verbose_name="Автомобиль"
+    )
+    image = models.ImageField(
+        upload_to='cars_images/',
+        verbose_name="Фотография"
+    )
+
+    def __str__(self):
+        return f"{self.car} {self.image}"

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список автомобилей</title>
+</head>
+<body>
+    <h1>Список автомобилей</h1>
+
+    <ul>
+        {% for vehicle in vehicles %}
+            <li>{{ vehicle.make }} {{ vehicle.model }} ({{ vehicle.year }})</li>
+        {% empty %}
+            <li>Нет данных</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

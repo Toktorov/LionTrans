@@ -1,0 +1,67 @@
+{% load static %}
+<header class="header">
+    <div class="header__content">
+        <div class="header__logo">
+            <a href="{% url 'index' %}">
+                <img src="{{ setting.logo.url }}" alt="">
+            </a>
+        </div>
+
+        <form action="{% url 'search' %}" method="post" class="header__search">
+            {% csrf_token %}
+            <input type="text" name="q" placeholder="VIN, ID лота или марка">
+            <button type="button" type="submit"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"/></svg></button>
+            <button type="button" type="submit" class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/></svg></button>
+        </form>
+
+        <div class="header__menu">
+            <ul class="header__nav">
+                <li class="header__nav-item">
+                    <a href="{% url 'index' %}" class="header__nav-link">Домой</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="{% url 'auction' %}" class="header__nav-link">Аукцион</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="activity.html" class="header__nav-link">Авто в наличии</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="{% url 'index' %}" class="header__nav-link">Как это работает</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="{% url 'index' %}" class="header__nav-link">Доставка</a>
+                </li>
+                <li class="header__nav-item">
+                    <a class="header__nav-link header__nav-link--menu" href="#" role="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,10a2,2,0,1,0,2,2A2,2,0,0,0,12,10ZM5,10a2,2,0,1,0,2,2A2,2,0,0,0,5,10Zm14,0a2,2,0,1,0,2,2A2,2,0,0,0,19,10Z"/></svg></a>
+
+                    <ul class="dropdown-menu header__nav-menu" aria-labelledby="dropdownMenu2">
+                        <li><a href="signin.html">Sign in</a></li>
+                        <li><a href="signup.html">Sign up</a></li>
+                        <li><a href="forgot.html">Forgot password</a></li>
+                        <li><a href="404.html">404 Page</a></li>
+                        <li><a href="privacy.html">Privacy policy</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header__actions">
+            <div class="header__action header__action--search">
+                <button class="header__action-btn" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"/></svg></button>
+            </div>
+
+            <div class="header__action header__action--signin">
+                <a class="header__action-btn header__action-btn--signin open-modal" href="#modal-wallet">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,7H18V6a3,3,0,0,0-3-3H5A3,3,0,0,0,2,6H2V18a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V10A3,3,0,0,0,19,7ZM5,5H15a1,1,0,0,1,1,1V7H5A1,1,0,0,1,5,5ZM20,15H19a1,1,0,0,1,0-2h1Zm0-4H19a3,3,0,0,0,0,6h1v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.83A3,3,0,0,0,5,9H19a1,1,0,0,1,1,1Z"/></svg> -->
+                    <span>Заказать звонок</span>
+                </a>
+            </div>
+        </div>
+
+        <button class="header__btn" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>

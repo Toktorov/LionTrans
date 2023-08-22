@@ -1,0 +1,57 @@
+from django.db import models
+
+# Create your models here.
+class CarInStock(models.Model):
+    make = models.CharField(
+        max_length=200,
+        verbose_name="Производитель"
+    )
+    model = models.CharField(
+        max_length=200,
+        verbose_name="Модель"
+    )
+    car_body = models.CharField(
+        max_length=100,
+        verbose_name="Кузов",
+        blank=True, null=True
+    )
+    odometer = models.PositiveSmallIntegerField(
+        verbose_name="Пробег",
+        blank=True, null=True
+    )
+    fuel_type = models.CharField(
+        max_length=100,
+        verbose_name="Тип топлива",
+        blank=True, null=True
+    )
+    car_volume = models.CharField(
+        max_length=20,
+        verbose_name="Объем",
+        blank=True, null=True
+    )
+    year = models.PositiveSmallIntegerField(
+        verbose_name="Год",
+        blank=True, null=True
+    )
+    gearbox = models.CharField(
+        max_length=20,
+        verbose_name="Коробка передач",
+        blank=True, null=True
+    )
+    drive_unit = models.CharField(
+        max_length=50,
+        verbose_name="Привод",
+        blank=True, null=True
+    )
+    vin = models.CharField(
+        max_length=200,
+        verbose_name="VIN",
+        blank=True, null=True
+    )
+
+    def __str__(self):
+        return f"{self.make} {self.model}"
+    
+    class Meta:
+        verbose_name = "Авто в наличии"
+        verbose_name_plural = "Авто в наличии"

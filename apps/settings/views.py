@@ -113,6 +113,14 @@ def contact(request):
     setting = Setting.objects.latest('id')
     return render(request, 'contact.html', locals())
 
+def how_it_work(request):
+    setting = Setting.objects.latest('id')
+    return render(request, 'how_it_work.html', locals())
+
+def delivery(request):
+    setting = Setting.objects.latest('id')
+    return render(request, 'delivery.html', locals())
+
 def check_vehicle(request):
     api_url = 'https://auctionauto.kg/api/v1/vehicle'
 

@@ -1251,7 +1251,7 @@ body::-webkit-scrollbar-thumb {
   width: 160px;
   height: 50px;
   border-radius: 12px;
-  background-color: #6164ff;
+  background-color: #df131c;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1266,7 +1266,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 30px;
 }
 .main__video:hover {
-  color: #6164ff;
+  color: #df131c;
   background-color: #222227;
 }
 .main__author {
@@ -5756,4 +5756,14 @@ body::-webkit-scrollbar-thumb {
 
 .header__nav-item a {
   font-size: 17px; /* Здесь устанавливается размер шрифта */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Цвет и прозрачность затемнения (0.5 обозначает 50% прозрачности черного цвета) */
+  z-index: 1; /* Устанавливаем z-index выше фонового изображения */
 }

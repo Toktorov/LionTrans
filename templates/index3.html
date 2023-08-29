@@ -1,71 +1,83 @@
 {% extends 'include/homepage.html' %}
 {% load static %}
 {% block content %}
-	<!-- header -->
-	{% include 'include/header.html' %}
-	<!-- end header -->
+<!-- header -->
+{% include 'include/header.html' %}
+<!-- end header -->
 
-	<!-- main content -->
-	<main class="main">
-		<!-- home -->
-		<div class="home home--hero">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="hero owl-carousel" id="hero">
-							<div class="hero__slide" data-bg="https://www.bmw.kg/content/dam/bmw/common/all-models/x-series/x7/2022/highlights/bmw-x-series-x7-sp-desktop.jpg">
-								<h1 class="hero__title">АВТО ИЗ КОРЕИ, КИТАЯ, ГРУЗИИ И США В КЫРГЫЗСТАНЕ</h1>
-								<p class="hero__text">Сайт по продаже автомобилей с пробегом из Кореи, Китая, Грузии и США. Доставим машину из Америки в Бишкек, Ош, Джалал-Абад, Каракол, Токмок, Узген, Балыкчы, Кара-Балта, Нарын, Талас и др.</p>
-								<div class="hero__btns">
-									<a href="tel:+996772343206" class="hero__btn hero__btn--clr">Позвонить</a>
-									<a href="{% url 'index' %}" class="hero__btn">Подробнее</a>
-								</div>
-
-								<!-- bg animation -->
-								<div id="canvas" class="hero__canvas"></div>
-								<!-- end bg animation -->
+<!-- main content -->
+<main class="main">
+	<!-- home -->
+	<div class="home home--hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="hero owl-carousel" id="hero">
+						<div class="hero__slide"
+							data-bg="https://www.bmw.kg/content/dam/bmw/common/all-models/x-series/x7/2022/highlights/bmw-x-series-x7-sp-desktop.jpg">
+							<h1 class="hero__title">АВТО НА ЗАКАЗ ИЗ США, ГРУЗИИ, КИТАЯ И КОРЕИ</h1>
+							<p class="hero__text">Сайт по продаже автомобилей с пробегом из Кореи, Китая, Грузии и США.
+								Доставим машину из Америки в Бишкек, Ош, Джалал-Абад, Каракол, Токмок, Узген, Балыкчы,
+								Кара-Балта, Нарын, Талас и др.</p>
+							<div class="hero__btns">
+								<a href="tel:+996772343206" class="hero__btn hero__btn--clr">Позвонить</a>
+								<a href="{% url 'index' %}" class="hero__btn">Подробнее</a>
 							</div>
 
-							<div class="hero__slide" data-bg="https://i.gaw.to/vehicles/photos/40/33/403308-2023-hyundai-sonata.jpg">
-								<h1 class="hero__title">АВТО ИЗ КОРЕИ В КЫРГЫЗСТАНЕ</h1>
-								<p class="hero__text">Сайт по продаже автомобилей из Кореи. Доставим машину из Америки в Бишкек, Ош, Джалал-Абад, Каракол, Токмок, Узген, Балыкчы, Кара-Балта, Нарын, Талас и др.</p>
-								<div class="hero__btns">
-									<a href="tel:+996772343206" class="hero__btn hero__btn--clr">Позвонить</a>
-									<a href="{% url 'index' %}" class="hero__btn">Подробнее</a>
-								</div>
+							<!-- bg animation -->
+							<div id="canvas" class="hero__canvas"></div>
+							<!-- end bg animation -->
+						</div>
 
-								<!-- bg animation -->
-								<div id="canvas" class="hero__canvas"></div>
-								<!-- end bg animation -->
+						<div class="hero__slide"
+							data-bg="https://i.gaw.to/vehicles/photos/40/33/403308-2023-hyundai-sonata.jpg">
+							<h1 class="hero__title">АВТО ИЗ КОРЕИ В КЫРГЫЗСТАНЕ</h1>
+							<p class="hero__text">Сайт по продаже автомобилей из Кореи. Доставим машину из Америки в
+								Бишкек, Ош, Джалал-Абад, Каракол, Токмок, Узген, Балыкчы, Кара-Балта, Нарын, Талас и др.
+							</p>
+							<div class="hero__btns">
+								<a href="tel:+996772343206" class="hero__btn hero__btn--clr">Позвонить</a>
+								<a href="{% url 'index' %}" class="hero__btn">Подробнее</a>
 							</div>
 
-							<div class="hero__slide" data-bg="https://s.auto.drom.ru/i24271/c/photos/fullsize/zeekr/001/zeekr_001_1081126.jpg">
-								<h1 class="hero__title">АВТО ИЗ КИТАЯ В КЫРГЫЗСТАНЕ</h1>
-								<p class="hero__text">Сайт по продаже автомобилей из Китая. Доставим машину из Америки в Бишкек, Ош, Джалал-Абад, Каракол, Токмок, Узген, Балыкчы, Кара-Балта, Нарын, Талас и др.</p>
-								<div class="hero__btns">
-									<a href="tel:+996772343206" class="hero__btn hero__btn--clr">Позвонить</a>
-									<a href="{% url 'index' %}" class="hero__btn">Подробнее</a>
-								</div>
+							<!-- bg animation -->
+							<div id="canvas" class="hero__canvas"></div>
+							<!-- end bg animation -->
+						</div>
 
-								<!-- bg animation -->
-								<div id="canvas" class="hero__canvas"></div>
-								<!-- end bg animation -->
+						<div class="hero__slide"
+							data-bg="https://s.auto.drom.ru/i24271/c/photos/fullsize/zeekr/001/zeekr_001_1081126.jpg">
+							<h1 class="hero__title">АВТО ИЗ КИТАЯ В КЫРГЫЗСТАНЕ</h1>
+							<p class="hero__text">Сайт по продаже автомобилей из Китая. Доставим машину из Америки в
+								Бишкек, Ош, Джалал-Абад, Каракол, Токмок, Узген, Балыкчы, Кара-Балта, Нарын, Талас и др.
+							</p>
+							<div class="hero__btns">
+								<a href="tel:+996772343206" class="hero__btn hero__btn--clr">Позвонить</a>
+								<a href="{% url 'index' %}" class="hero__btn">Подробнее</a>
 							</div>
 
-							<div class="hero__slide" data-bg="https://strg1.nm.kz/neofiles/serve-image/60818bd628ee8c000635b25e/1190x500/q90">
-								<h1 class="hero__title">АВТО ИЗ ГРУЗИИ В КЫРГЫЗСТАНЕ</h1>
-								<p class="hero__text">Сайт по продаже автомобилей из Грузии. Доставим машину из Америки в Бишкек, Ош, Джалал-Абад, Каракол, Токмок, Узген, Балыкчы, Кара-Балта, Нарын, Талас и др.</p>
-								<div class="hero__btns">
-									<a href="tel:+996772343206" class="hero__btn hero__btn--clr">Позвонить</a>
-									<a href="{% url 'index' %}" class="hero__btn">Подробнее</a>
-								</div>
+							<!-- bg animation -->
+							<div id="canvas" class="hero__canvas"></div>
+							<!-- end bg animation -->
+						</div>
 
-								<!-- bg animation -->
-								<div id="canvas" class="hero__canvas"></div>
-								<!-- end bg animation -->
+						<div class="hero__slide"
+							data-bg="https://strg1.nm.kz/neofiles/serve-image/60818bd628ee8c000635b25e/1190x500/q90">
+							<h1 class="hero__title">АВТО ИЗ ГРУЗИИ В КЫРГЫЗСТАНЕ</h1>
+							<p class="hero__text">Сайт по продаже автомобилей из Грузии. Доставим машину из Америки в
+								Бишкек, Ош, Джалал-Абад, Каракол, Токмок, Узген, Балыкчы, Кара-Балта, Нарын, Талас и др.
+							</p>
+							<div class="hero__btns">
+								<a href="tel:+996772343206" class="hero__btn hero__btn--clr">Позвонить</a>
+								<a href="{% url 'index' %}" class="hero__btn">Подробнее</a>
 							</div>
 
-							<!-- <div class="hero__slide" data-bg="img/home/slide2.jpg">
+							<!-- bg animation -->
+							<div id="canvas" class="hero__canvas"></div>
+							<!-- end bg animation -->
+						</div>
+
+						<!-- <div class="hero__slide" data-bg="img/home/slide2.jpg">
 								<h2 class="hero__title">Discover, collect, and sell <br>extraordinary NFTs</h2>
 								<p class="hero__text">Securely buy and sell unique digital collectibles. <br>Lowest transaction costs across all NFT markets guaranteed.</p>
 								<div class="hero__btns">
@@ -82,330 +94,581 @@
 									<a href="signin.html" class="hero__btn">Create</a>
 								</div>
 							</div> -->
-						</div>
+					</div>
 
-						<button class="main__nav main__nav--hero main__nav--prev" data-nav="#hero" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z"/></svg></button>
-						<button class="main__nav main__nav--hero main__nav--next" data-nav="#hero" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"/></svg></button>
+					<button class="main__nav main__nav--hero main__nav--prev" data-nav="#hero" type="button"><svg
+							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z" />
+						</svg></button>
+					<button class="main__nav main__nav--hero main__nav--next" data-nav="#hero" type="button"><svg
+							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z" />
+						</svg></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end home -->
+
+	<!-- About Us Start -->
+
+
+	<div class="container">
+
+		<div class="col-12 col-xl-11">
+			<div class="main__title main__title--page">
+				<h1>Lion Trans - Ваша мечта, ближе чем кажется!</h1>
+
+				<p style="font-size: 18px;">
+					Компания «Lion Trans KG» предоставляют услуги по подбору, покупке и импорту авто из США, Грузии,
+					Кореи и Китая!
+					Для вас доступен комплекс услуг, связанных с доставкой и покупкой автомобилей из США, Китая и Кореи
+					через Кыргызстан в страны Евразийского экономического союза (ЕАЭС).
+					Нам можно доверять — мы официальные представители Lion Trans Company в Кыргызстане и Казахстане, и
+					являемся единственными официальными брокерами Copart в этих странах.
+					<br>
+					Мы также предоставляем постоянным клиентам специальные скидки.
+					Сотрудничая с нами, вы можете быть уверены в надежной и профессиональной поддержке на каждом этапе
+					вашей сделки.<br>
+					Если вы хотите узнать больше о наших услугах, мы приглашаем вас подробнее ознакомиться на нашем
+					веб-сайте.<br>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="main__video-bg"
+		data-bg="https://www.bmw.ru/content/dam/bmw/common/all-models/x-series/x7/2022/highlights/bmw-x-series-x7-cp-exterior-highlights-desktop.jpg"
+		style="background: url('https://www.bmw.ru/content/dam/bmw/common/all-models/x-series/x7/2022/highlights/bmw-x-series-x7-cp-exterior-highlights-desktop.jpg') center center / cover no-repeat; position: relative;">
+		<div class="overlay"></div> <!-- Добавляем слой с затемнением -->
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-8 col-xl-8">
+					<div class="main__title">
+						<h2>Наши услуги:</h2>
+						<p style="color: white;">- Логистические услуги из США, Грузии, Южной Кореи и Китая</p>
+						<p style="color: white; margin-top: 5px;">-  Брокерские услуги</p>
+						<p style="color: white; margin-top: 5px;">- Подготовка транзитно-таможенной декларации</p>
+						<p style="color: white; margin-top: 5px;">- Страховка авто с момента погрузки до момента прибытия</p>
+						<p style="color: white; margin-top: 5px;">- Кратчайшие сроки, от 12 дней</p>
+						<a href="{% url 'index' %}" class="main__video open-video">Заказать звонок</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- end home -->
+		<!-- bg animation -->
+		<div id="canvas" class="main__canvas"><canvas class="vanta-canvas" width="505" height="248"
+				style="position: absolute; z-index: 0; top: 0px; left: 0px; width: 1010px; height: 497px;"></canvas>
+		</div>
+		<!-- end bg animation -->
+	</div>
 
-		<div class="container">
-			<!-- explore -->
-			<section class="row row--grid">
-				<!-- title -->
-				<div class="col-12">
-					<div class="main__title">
-						<h2>Аукцион</h2>
+
+	<div class="container">
+		<div class="row row--grid">
+			<!-- title -->
+			<div class="col-12 col-xl-8">
+				<div class="main__title">
+					<h2>Ваша мечта, ближе чем кажется!</h2>
+
+					<p>Компания «Lion Trans KG» предоставляют услуги по подбору, покупке и импорту авто из США, Грузии,
+						Кореи и Китая!</p>
+				</div>
+			</div>
+			<!-- end title -->
+		</div>
+
+		<div class="row row--grid">
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="feature">
+					<span class="feature__icon feature__icon--blue">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M10,13H4a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V14A1,1,0,0,0,10,13ZM9,19H5V15H9ZM20,3H14a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V4A1,1,0,0,0,20,3ZM19,9H15V5h4Zm1,7H18V14a1,1,0,0,0-2,0v2H14a1,1,0,0,0,0,2h2v2a1,1,0,0,0,2,0V18h2a1,1,0,0,0,0-2ZM10,3H4A1,1,0,0,0,3,4v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V4A1,1,0,0,0,10,3ZM9,9H5V5H9Z">
+							</path>
+						</svg>
+					</span>
+					<h3 class="feature__title">Консультация профессионала</h3>
+					<p class="feature__text">Помощь клиентам в выборе автомобиля.</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="feature">
+					<span class="feature__icon feature__icon--red">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M2.5,10.56l9,5.2a1,1,0,0,0,1,0l9-5.2a1,1,0,0,0,0-1.73l-9-5.2a1,1,0,0,0-1,0l-9,5.2a1,1,0,0,0,0,1.73ZM12,5.65l7,4-7,4.05L5,9.69Zm8.5,7.79L12,18.35,3.5,13.44a1,1,0,0,0-1.37.36,1,1,0,0,0,.37,1.37l9,5.2a1,1,0,0,0,1,0l9-5.2a1,1,0,0,0,.37-1.37A1,1,0,0,0,20.5,13.44Z">
+							</path>
+						</svg>
+					</span>
+					<h3 class="feature__title">Присутствие на аукционе</h3>
+					<p class="feature__text">Возможность принимать участие во время аукциона как онлайн, так и оффлайн.
+					</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="feature">
+					<span class="feature__icon feature__icon--purple">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M20.49,7.52a.19.19,0,0,1,0-.08.17.17,0,0,1,0-.07l0-.09-.06-.15,0,0h0l0,0,0,0a.48.48,0,0,0-.09-.11l-.09-.08h0l-.05,0,0,0L16.26,4.45h0l-3.72-2.3A.85.85,0,0,0,12.25,2h-.08a.82.82,0,0,0-.27,0h-.1a1.13,1.13,0,0,0-.33.13L4,6.78l-.09.07-.09.08L3.72,7l-.05.06,0,0-.06.15,0,.09v.06a.69.69,0,0,0,0,.2v8.73a1,1,0,0,0,.47.85l7.5,4.64h0l0,0,.15.06.08,0a.86.86,0,0,0,.52,0l.08,0,.15-.06,0,0h0L20,17.21a1,1,0,0,0,.47-.85V7.63S20.49,7.56,20.49,7.52ZM12,4.17l1.78,1.1L8.19,8.73,6.4,7.63Zm-1,15L5.5,15.81V9.42l5.5,3.4Zm1-8.11L10.09,9.91l5.59-3.47L17.6,7.63Zm6.5,4.72L13,19.2V12.82l5.5-3.4Z">
+							</path>
+						</svg>
+					</span>
+					<h3 class="feature__title">Информационная поддержка</h3>
+					<p class="feature__text">Клиентская поддержка на каждом этапе сделки.
+						Брокерские услуги; Помощь в таможенной очистке.</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="feature">
+					<span class="feature__icon feature__icon--green">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M20.47,7.37s0,0,0-.08l-.06-.15a.71.71,0,0,0-.07-.09.94.94,0,0,0-.09-.12l-.09-.07L20,6.78l-7.5-4.63a1,1,0,0,0-1.06,0L4,6.78l-.09.08-.09.07a.94.94,0,0,0-.09.12.71.71,0,0,0-.07.09l-.06.15s0,0,0,.08a1.15,1.15,0,0,0,0,.26v8.74a1,1,0,0,0,.47.85l7.5,4.63h0a.47.47,0,0,0,.15.06s.05,0,.08,0a.86.86,0,0,0,.52,0s.05,0,.08,0a.47.47,0,0,0,.15-.06h0L20,17.22a1,1,0,0,0,.47-.85V7.63A1.15,1.15,0,0,0,20.47,7.37ZM11,19.21l-5.5-3.4V9.43L11,12.82Zm1-8.12L6.4,7.63,12,4.18l5.6,3.45Zm6.5,4.72L13,19.21V12.82l5.5-3.39Z">
+							</path>
+						</svg>
+					</span>
+					<h3 class="feature__title">С нами выгодно</h3>
+					<p class="feature__text">Скидки для постоянных покупателей.</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="feature">
+					<span class="feature__icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M7,6H6V3A1,1,0,0,0,4,3V6H3A1,1,0,0,0,3,8H7A1,1,0,0,0,7,6ZM5,10a1,1,0,0,0-1,1V21a1,1,0,0,0,2,0V11A1,1,0,0,0,5,10Zm7,8a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V19A1,1,0,0,0,12,18Zm9-8H20V3a1,1,0,0,0-2,0v7H17a1,1,0,0,0,0,2h4a1,1,0,0,0,0-2Zm-2,4a1,1,0,0,0-1,1v6a1,1,0,0,0,2,0V15A1,1,0,0,0,19,14Zm-5,0H13V3a1,1,0,0,0-2,0V14H10a1,1,0,0,0,0,2h4a1,1,0,0,0,0-2Z">
+							</path>
+						</svg>
+					</span>
+					<h3 class="feature__title">Личные автовозы</h3>
+					<p class="feature__text">Более 50-ти автовозов, обязательное страхование.</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="feature">
+					<span class="feature__icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M21.3,10.08A3,3,0,0,0,19,9H14.44L15,7.57A4.13,4.13,0,0,0,11.11,2a1,1,0,0,0-.91.59L7.35,9H5a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H17.73a3,3,0,0,0,2.95-2.46l1.27-7A3,3,0,0,0,21.3,10.08ZM7,20H5a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H7Zm13-7.82-1.27,7a1,1,0,0,1-1,.82H9V10.21l2.72-6.12A2.11,2.11,0,0,1,13.1,6.87L12.57,8.3A2,2,0,0,0,14.44,11H19a1,1,0,0,1,.77.36A1,1,0,0,1,20,12.18Z">
+							</path>
+						</svg>
+					</span>
+					<h3 class="feature__title">Безграничный выбор</h3>
+					<p class="feature__text">Покупка с крупнейших страховых аукционов США: MANHEIM, COPART, IAAI.Покупка
+						новых и подержанных авто из Китая, Кореи и Грузии</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="feature">
+					<span class="feature__icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M22,9.67A1,1,0,0,0,21.14,9l-5.69-.83L12.9,3a1,1,0,0,0-1.8,0L8.55,8.16,2.86,9a1,1,0,0,0-.81.68,1,1,0,0,0,.25,1l4.13,4-1,5.68a1,1,0,0,0,.4,1,1,1,0,0,0,1.05.07L12,18.76l5.1,2.68a.93.93,0,0,0,.46.12,1,1,0,0,0,.59-.19,1,1,0,0,0,.4-1l-1-5.68,4.13-4A1,1,0,0,0,22,9.67Zm-6.15,4a1,1,0,0,0-.29.89l.72,4.19-3.76-2a1,1,0,0,0-.94,0l-3.76,2,.72-4.19a1,1,0,0,0-.29-.89l-3-3,4.21-.61a1,1,0,0,0,.76-.55L12,5.7l1.88,3.82a1,1,0,0,0,.76.55l4.21.61Z">
+							</path>
+						</svg>
+					</span>
+					<h3 class="feature__title">Открытость сделки</h3>
+					<p class="feature__text">Предоставление документов о стоимости покупки.</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="feature feature--last">
+					<span class="feature__icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M21.92,11.6C19.9,6.91,16.1,4,12,4S4.1,6.91,2.08,11.6a1,1,0,0,0,0,.8C4.1,17.09,7.9,20,12,20s7.9-2.91,9.92-7.6A1,1,0,0,0,21.92,11.6ZM12,18c-3.17,0-6.17-2.29-7.9-6C5.83,8.29,8.83,6,12,6s6.17,2.29,7.9,6C18.17,15.71,15.17,18,12,18ZM12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,14Z">
+							</path>
+						</svg>
+					</span>
+					<h3 class="feature__title">Работаем быстро</h3>
+					<p class="feature__text">Кратчайшие сроки доставки автомобиля, от 12 дней.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- About Us End  -->
+
+	<div class="container">
+		<!-- explore -->
+		<section class="row row--grid">
+			<!-- title -->
+			<div class="col-12">
+				<div class="main__title">
+					<h2>Аукцион</h2>
+				</div>
+			</div>
+			<!-- end title -->
+
+			<!-- tabs nav -->
+			<div class="col-12">
+				<ul class="nav nav-tabs main__tabs" id="main__tabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1"
+							aria-selected="true">Все</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2"
+							aria-selected="false">Сша</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3"
+							aria-selected="false">Корея</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4"
+							aria-selected="false">Китай</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4"
+							aria-selected="false">Грузия</a>
+					</li>
+				</ul>
+			</div>
+			<!-- end tabs nav -->
+
+			<div class="col-12">
+				<!-- tabs content -->
+				<div class="tab-content">
+					<div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+						<div class="row row--grid">
+							{% for vehicle in vehicles %}
+							<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+								<!-- card -->
+								<div class="card">
+									<a href="{% url 'auction_detail' vehicle.lotId %}" class="card__cover">
+										<img src="{{ vehicle.images.0 }}" alt="">
+										<span class="card__time card__time--clock">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+												<path
+													d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z" />
+											</svg>
+											<span class="card__clock card__clock--2"></span>
+										</span>
+									</a>
+									<h3 class="card__title"><a href="{% url 'auction_detail' vehicle.lotId %}">{{
+											vehicle.make }} {{ vehicle.model }} {{ vehicle.year }}</a></h3>
+									<div class="card__author">
+										<a href="{% url 'auction_detail' vehicle.lotId %}">VIN: {{ vehicle.vin }}</a>
+									</div>
+									<div class="card__info">
+										<div class="card__price">
+											<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
+											<p>Аукцион</p>
+											<span>{{ vehicle.auction }}</span>
+										</div>
+
+										<button class="card__likes" type="button">
+											<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
+											<span>ID лота: {{ vehicle.lotId }}</span>
+										</button>
+									</div>
+								</div>
+								<!-- end card -->
+							</div>
+							{% endfor %}
+						</div>
+
+						<!-- paginator -->
+						<div class="row row--grid">
+							<div class="col-12">
+								<div class="paginator">
+									<span class="paginator__pages">{{ page.paginator.count }} из {{
+										page.paginator.num_pages }}</span>
+									<ul class="paginator__list">
+										{% if page.has_previous %}
+										<li>
+											<a href="?page=1"><svg xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 24 24">
+													<path
+														d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z" />
+												</svg></a>
+										</li>
+										{% endif %}
+										{% for page_num in page.paginator.page_range %}
+										<li class="{% if page_num == page.number %}active{% endif %}">
+											<a href="?page={{ page_num }}">{{ page_num }}</a>
+										</li>
+										{% endfor %}
+										{% if page.has_next %}
+										<li>
+											<a href="?page={{ page.paginator.num_pages }}"><svg
+													xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+													<path
+														d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z" />
+												</svg></a>
+										</li>
+										{% endif %}
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- end paginator -->
+					</div>
+
+					<div class="tab-pane fade" id="tab-2" role="tabpanel">
+						<div class="row row--grid">
+							{% for vehicle in vehicles %}
+							<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+								<!-- card -->
+								<div class="card">
+									<a href="{% url 'auction_detail' vehicle.lotId %}" class="card__cover">
+										<img src="{{ vehicle.images.0 }}" alt="">
+										<span class="card__time card__time--clock">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+												<path
+													d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z" />
+											</svg>
+											<span class="card__clock card__clock--2"></span>
+										</span>
+									</a>
+									<h3 class="card__title"><a href="{% url 'auction_detail' vehicle.lotId %}">{{
+											vehicle.make }} {{ vehicle.model }} {{ vehicle.year }}</a></h3>
+									<div class="card__author">
+										<a href="{% url 'auction_detail' vehicle.lotId %}">VIN: {{ vehicle.vin }}</a>
+									</div>
+									<div class="card__info">
+										<div class="card__price">
+											<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
+											<p>Аукцион</p>
+											<span>{{ vehicle.auction }}</span>
+										</div>
+
+										<button class="card__likes" type="button">
+											<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
+											<span>ID лота: {{ vehicle.lotId }}</span>
+										</button>
+									</div>
+								</div>
+								<!-- end card -->
+							</div>
+							{% endfor %}
+						</div>
+
+						<!-- paginator -->
+						<div class="row row--grid">
+							<div class="col-12">
+								<div class="paginator">
+									<span class="paginator__pages">9 from 169</span>
+
+									<ul class="paginator__list">
+										<li>
+											<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+													<path
+														d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z" />
+												</svg></a>
+										</li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li>
+											<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+													<path
+														d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z" />
+												</svg></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- end paginator -->
+					</div>
+
+					<div class="tab-pane fade" id="tab-3" role="tabpanel">
+						<div class="row row--grid">
+							{% for vehicle in vehicles %}
+							<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+								<!-- card -->
+								<div class="card">
+									<a href="{% url 'auction_detail' vehicle.lotId %}" class="card__cover">
+										<img src="{{ vehicle.images.0 }}" alt="">
+										<span class="card__time card__time--clock">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+												<path
+													d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z" />
+											</svg>
+											<span class="card__clock card__clock--2"></span>
+										</span>
+									</a>
+									<h3 class="card__title"><a href="{% url 'auction_detail' vehicle.lotId %}">{{
+											vehicle.make }} {{ vehicle.model }} {{ vehicle.year }}</a></h3>
+									<div class="card__author">
+										<a href="{% url 'auction_detail' vehicle.lotId %}">VIN: {{ vehicle.vin }}</a>
+									</div>
+									<div class="card__info">
+										<div class="card__price">
+											<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
+											<p>Аукцион</p>
+											<span>{{ vehicle.auction }}</span>
+										</div>
+
+										<button class="card__likes" type="button">
+											<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
+											<span>ID лота: {{ vehicle.lotId }}</span>
+										</button>
+									</div>
+								</div>
+								<!-- end card -->
+							</div>
+							{% endfor %}
+						</div>
+
+						<!-- paginator -->
+						<div class="row row--grid">
+							<div class="col-12">
+								<div class="paginator">
+									<span class="paginator__pages">9 from 169</span>
+
+									<ul class="paginator__list">
+										<li>
+											<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+													<path
+														d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z" />
+												</svg></a>
+										</li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li>
+											<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+													<path
+														d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z" />
+												</svg></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- end paginator -->
+					</div>
+
+					<div class="tab-pane fade" id="tab-4" role="tabpanel">
+						<div class="row row--grid">
+							{% for vehicle in vehicles %}
+							<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+								<!-- card -->
+								<div class="card">
+									<a href="{% url 'auction_detail' vehicle.lotId %}" class="card__cover">
+										<img src="{{ vehicle.images.0 }}" alt="">
+										<span class="card__time card__time--clock">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+												<path
+													d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z" />
+											</svg>
+											<span class="card__clock card__clock--2"></span>
+										</span>
+									</a>
+									<h3 class="card__title"><a href="{% url 'auction_detail' vehicle.lotId %}">{{
+											vehicle.make }} {{ vehicle.model }} {{ vehicle.year }}</a></h3>
+									<div class="card__author">
+										<a href="{% url 'auction_detail' vehicle.lotId %}">VIN: {{ vehicle.vin }}</a>
+									</div>
+									<div class="card__info">
+										<div class="card__price">
+											<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
+											<p>Аукцион</p>
+											<span>{{ vehicle.auction }}</span>
+										</div>
+
+										<button class="card__likes" type="button">
+											<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
+											<span>ID лота: {{ vehicle.lotId }}</span>
+										</button>
+									</div>
+								</div>
+								<!-- end card -->
+							</div>
+							{% endfor %}
+						</div>
+
+						<!-- paginator -->
+						<div class="row row--grid">
+							<div class="col-12">
+								<div class="paginator">
+									<span class="paginator__pages">9 from 169</span>
+
+									<ul class="paginator__list">
+										<li>
+											<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+													<path
+														d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z" />
+												</svg></a>
+										</li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li>
+											<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+													<path
+														d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z" />
+												</svg></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- end paginator -->
 					</div>
 				</div>
-				<!-- end title -->
+				<!-- end tabs content -->
+			</div>
+		</section>
+		<!-- end explore -->
 
-				<!-- tabs nav -->
-				<div class="col-12">
-					<ul class="nav nav-tabs main__tabs" id="main__tabs" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Все</a>
-						</li>
+		<!-- new authors -->
+		<section class="row row--grid">
+			<!-- title -->
+			<div class="col-12">
+				<div class="main__title">
+					<h2>Авто в наличии</h2>
 
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Сша</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Корея</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">Китай</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">Грузия</a>
-						</li>
-					</ul>
+					<a href="{% url 'index' %}" class="main__link">Посмотреть больше <svg
+							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+								d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z">
+							</path>
+						</svg></a>
 				</div>
-				<!-- end tabs nav -->
+			</div>
+			<!-- end title -->
 
-				<div class="col-12">
-					<!-- tabs content -->
-					<div class="tab-content">
-						<div class="tab-pane fade show active" id="tab-1" role="tabpanel">
-							<div class="row row--grid">
-								{% for vehicle in vehicles %}
-								<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-									<!-- card -->
-									<div class="card">
-										<a href="{% url 'auction_detail' vehicle.lotId %}" class="card__cover">
-											<img src="{{ vehicle.images.0 }}" alt="">
-											<span class="card__time card__time--clock">
-												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z"/></svg>
-												<span class="card__clock card__clock--2"></span>
-											</span>
-										</a>
-										<h3 class="card__title"><a href="{% url 'auction_detail' vehicle.lotId %}">{{ vehicle.make }} {{ vehicle.model }} {{ vehicle.year }}</a></h3>
-										<div class="card__author">
-											<a href="{% url 'auction_detail' vehicle.lotId %}">VIN: {{ vehicle.vin }}</a>
-										</div>
-										<div class="card__info">
-											<div class="card__price">
-												<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
-												<p>Аукцион</p>
-												<span>{{ vehicle.auction }}</span>
-											</div>
-											
-											<button class="card__likes" type="button">
-												<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
-												<span>ID лота: {{ vehicle.lotId }}</span>
-											</button>
-										</div>
-									</div>
-									<!-- end card -->
-								</div>
-								{% endfor %}
-							</div>
-
-							<!-- paginator -->
-							<div class="row row--grid">
-								<div class="col-12">
-									<div class="paginator">
-										<span class="paginator__pages">{{ page.paginator.count }} из {{ page.paginator.num_pages }}</span>
-										<ul class="paginator__list">
-											{% if page.has_previous %}
-											<li>
-												<a href="?page=1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z"/></svg></a>
-											</li>
-											{% endif %}
-											{% for page_num in page.paginator.page_range %}
-											<li class="{% if page_num == page.number %}active{% endif %}">
-												<a href="?page={{ page_num }}">{{ page_num }}</a>
-											</li>
-											{% endfor %}
-											{% if page.has_next %}
-											<li>
-												<a href="?page={{ page.paginator.num_pages }}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"/></svg></a>
-											</li>
-											{% endif %}
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- end paginator -->
-						</div>
-
-						<div class="tab-pane fade" id="tab-2" role="tabpanel">
-							<div class="row row--grid">
-								{% for vehicle in vehicles %}
-								<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-									<!-- card -->
-									<div class="card">
-										<a href="{% url 'auction_detail' vehicle.lotId %}" class="card__cover">
-											<img src="{{ vehicle.images.0 }}" alt="">
-											<span class="card__time card__time--clock">
-												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z"/></svg>
-												<span class="card__clock card__clock--2"></span>
-											</span>
-										</a>
-										<h3 class="card__title"><a href="{% url 'auction_detail' vehicle.lotId %}">{{ vehicle.make }} {{ vehicle.model }} {{ vehicle.year }}</a></h3>
-										<div class="card__author">
-											<a href="{% url 'auction_detail' vehicle.lotId %}">VIN: {{ vehicle.vin }}</a>
-										</div>
-										<div class="card__info">
-											<div class="card__price">
-												<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
-												<p>Аукцион</p>
-												<span>{{ vehicle.auction }}</span>
-											</div>
-											
-											<button class="card__likes" type="button">
-												<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
-												<span>ID лота: {{ vehicle.lotId }}</span>
-											</button>
-										</div>
-									</div>
-									<!-- end card -->
-								</div>
-								{% endfor %}
-							</div>
-
-							<!-- paginator -->
-							<div class="row row--grid">
-								<div class="col-12">
-									<div class="paginator">
-										<span class="paginator__pages">9 from 169</span>
-
-										<ul class="paginator__list">
-											<li>
-												<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z"/></svg></a>
-											</li>
-											<li class="active"><a href="#">1</a></li>
-											<li><a href="#">2</a></li>
-											<li><a href="#">3</a></li>
-											<li><a href="#">4</a></li>
-											<li>
-												<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"/></svg></a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- end paginator -->
-						</div>
-
-						<div class="tab-pane fade" id="tab-3" role="tabpanel">
-							<div class="row row--grid">
-								{% for vehicle in vehicles %}
-								<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-									<!-- card -->
-									<div class="card">
-										<a href="{% url 'auction_detail' vehicle.lotId %}" class="card__cover">
-											<img src="{{ vehicle.images.0 }}" alt="">
-											<span class="card__time card__time--clock">
-												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z"/></svg>
-												<span class="card__clock card__clock--2"></span>
-											</span>
-										</a>
-										<h3 class="card__title"><a href="{% url 'auction_detail' vehicle.lotId %}">{{ vehicle.make }} {{ vehicle.model }} {{ vehicle.year }}</a></h3>
-										<div class="card__author">
-											<a href="{% url 'auction_detail' vehicle.lotId %}">VIN: {{ vehicle.vin }}</a>
-										</div>
-										<div class="card__info">
-											<div class="card__price">
-												<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
-												<p>Аукцион</p>
-												<span>{{ vehicle.auction }}</span>
-											</div>
-											
-											<button class="card__likes" type="button">
-												<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
-												<span>ID лота: {{ vehicle.lotId }}</span>
-											</button>
-										</div>
-									</div>
-									<!-- end card -->
-								</div>
-								{% endfor %}
-							</div>
-
-							<!-- paginator -->
-							<div class="row row--grid">
-								<div class="col-12">
-									<div class="paginator">
-										<span class="paginator__pages">9 from 169</span>
-
-										<ul class="paginator__list">
-											<li>
-												<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z"/></svg></a>
-											</li>
-											<li class="active"><a href="#">1</a></li>
-											<li><a href="#">2</a></li>
-											<li><a href="#">3</a></li>
-											<li><a href="#">4</a></li>
-											<li>
-												<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"/></svg></a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- end paginator -->
-						</div>
-
-						<div class="tab-pane fade" id="tab-4" role="tabpanel">
-							<div class="row row--grid">
-								{% for vehicle in vehicles %}
-								<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-									<!-- card -->
-									<div class="card">
-										<a href="{% url 'auction_detail' vehicle.lotId %}" class="card__cover">
-											<img src="{{ vehicle.images.0 }}" alt="">
-											<span class="card__time card__time--clock">
-												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z"/></svg>
-												<span class="card__clock card__clock--2"></span>
-											</span>
-										</a>
-										<h3 class="card__title"><a href="{% url 'auction_detail' vehicle.lotId %}">{{ vehicle.make }} {{ vehicle.model }} {{ vehicle.year }}</a></h3>
-										<div class="card__author">
-											<a href="{% url 'auction_detail' vehicle.lotId %}">VIN: {{ vehicle.vin }}</a>
-										</div>
-										<div class="card__info">
-											<div class="card__price">
-												<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
-												<p>Аукцион</p>
-												<span>{{ vehicle.auction }}</span>
-											</div>
-											
-											<button class="card__likes" type="button">
-												<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
-												<span>ID лота: {{ vehicle.lotId }}</span>
-											</button>
-										</div>
-									</div>
-									<!-- end card -->
-								</div>
-								{% endfor %}
-							</div>
-
-							<!-- paginator -->
-							<div class="row row--grid">
-								<div class="col-12">
-									<div class="paginator">
-										<span class="paginator__pages">9 from 169</span>
-
-										<ul class="paginator__list">
-											<li>
-												<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z"/></svg></a>
-											</li>
-											<li class="active"><a href="#">1</a></li>
-											<li><a href="#">2</a></li>
-											<li><a href="#">3</a></li>
-											<li><a href="#">4</a></li>
-											<li>
-												<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"/></svg></a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- end paginator -->
-						</div>
-					</div>
-					<!-- end tabs content -->
-				</div>
-			</section>
-			<!-- end explore -->
-
-			<!-- new authors -->
-			<section class="row row--grid">
-				<!-- title -->
-				<div class="col-12">
-					<div class="main__title">
-						<h2>Авто в наличии</h2>
-
-						<a href="{% url 'index' %}" class="main__link">Посмотреть больше <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"></path></svg></a>
-					</div>
-				</div>
-				<!-- end title -->
-
-				<!-- post -->
-				{% for car in cars %}
-				<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-					<!-- card -->
-					<div class="card">
-						<a href="{% url 'car_in_stock_detail' car.id %}" class="card__cover">
-							<img src="{{ car.car_images.all.0.image.url }}" alt="">
-							<!-- <span class="card__time card__time--clock">
+			<!-- post -->
+			{% for car in cars %}
+			<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+				<!-- card -->
+				<div class="card">
+					<a href="{% url 'car_in_stock_detail' car.id %}" class="card__cover">
+						<img src="{{ car.car_images.all.0.image.url }}" alt="">
+						<!-- <span class="card__time card__time--clock">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z"/></svg>
 								<span class="card__clock card__clock--2"></span>
 							</span> -->
-						</a>
-						<h3 class="card__title"><a href="{% url 'car_in_stock_detail' car.id %}">{{ car.make }} {{ car.model }} {{ car.year }}</a></h3>
-						<div class="card__author">
-							<a href="">{{ car.odometer }} км | {{ car.gearbox }} | {{ car.drive_unit }}</a>
-						</div>
-						<!-- <div class="card__info">
+					</a>
+					<h3 class="card__title"><a href="{% url 'car_in_stock_detail' car.id %}">{{ car.make }} {{ car.model
+							}} {{ car.year }}</a></h3>
+					<div class="card__author">
+						<a href="">{{ car.odometer }} км | {{ car.gearbox }} | {{ car.drive_unit }}</a>
+					</div>
+					<!-- <div class="card__info">
 							<div class="card__price">
 								<img src="https://s3-symbol-logo.tradingview.com/copart--600.png" alt="">
 								<p>Аукцион</p>
@@ -413,219 +676,256 @@
 							</div>
 							
 							<button class="card__likes" type="button"> -->
-								<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
-								<!-- <span>ID лота: {{ car.id }}</span>
+					<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"/></svg> -->
+					<!-- <span>ID лота: {{ car.id }}</span>
 							</button>
 						</div> -->
-					</div>
-					<!-- end card -->
 				</div>
-				{% endfor %}
-				<!-- end post -->
-			</section>
-			<!-- end new authors -->
-		</div>
-	</main>
-	<!-- end main content -->
-
-	<!-- footer -->
-	{% include 'include/footer.html' %}
-	<!-- end footer -->
-
-	<!-- modal asset -->
-	<div id="modal-asset" class="zoom-anim-dialog mfp-hide modal modal--asset">
-		<button class="modal__close" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/></svg></button>
-
-		<div class="row">
-			<!-- content -->
-			<div class="col-12 col-xl-8">
-				<div class="asset__item">
-					<img src="img/cover/cover-big.jpg" alt="">
-
-					<!-- share -->
-					<div class="share share--asset">
-						<a href="#" class="share__link share__link--fb"><svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.56341 16.8197V8.65888H7.81615L8.11468 5.84663H5.56341L5.56724 4.43907C5.56724 3.70559 5.63693 3.31257 6.69042 3.31257H8.09873V0.5H5.84568C3.1394 0.5 2.18686 1.86425 2.18686 4.15848V5.84695H0.499939V8.6592H2.18686V16.8197H5.56341Z"/></svg> <span>share</span></a>
-						<a href="#" class="share__link share__link--tw"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.55075 3.19219L7.58223 3.71122L7.05762 3.64767C5.14804 3.40404 3.47978 2.57782 2.06334 1.1902L1.37085 0.501686L1.19248 1.01013C0.814766 2.14353 1.05609 3.34048 1.843 4.14552C2.26269 4.5904 2.16826 4.65396 1.4443 4.38914C1.19248 4.3044 0.972149 4.24085 0.951164 4.27263C0.877719 4.34677 1.12953 5.31069 1.32888 5.69202C1.60168 6.22165 2.15777 6.74068 2.76631 7.04787L3.28043 7.2915L2.67188 7.30209C2.08432 7.30209 2.06334 7.31268 2.12629 7.53512C2.33613 8.22364 3.16502 8.95452 4.08833 9.2723L4.73884 9.49474L4.17227 9.8337C3.33289 10.321 2.34663 10.5964 1.36036 10.6175C0.888211 10.6281 0.5 10.6705 0.5 10.7023C0.5 10.8082 1.78005 11.4014 2.52499 11.6344C4.75983 12.3229 7.41435 12.0264 9.40787 10.8506C10.8243 10.0138 12.2408 8.35075 12.9018 6.74068C13.2585 5.88269 13.6152 4.315 13.6152 3.56293C13.6152 3.07567 13.6467 3.01212 14.2343 2.42953C14.5805 2.09056 14.9058 1.71983 14.9687 1.6139C15.0737 1.41264 15.0632 1.41264 14.5281 1.59272C13.6362 1.91049 13.5103 1.86812 13.951 1.39146C14.2762 1.0525 14.6645 0.438131 14.6645 0.258058C14.6645 0.22628 14.5071 0.279243 14.3287 0.374576C14.1398 0.480501 13.7202 0.639389 13.4054 0.734722L12.8388 0.914795L12.3247 0.565241C12.0414 0.374576 11.6427 0.162725 11.4329 0.0991699C10.8978 -0.0491255 10.0794 -0.0279404 9.59673 0.14154C8.2852 0.618204 7.45632 1.84694 7.55075 3.19219Z"/></svg> <span>tweet</span></a>
-						<a href="#" class="share__link share__link--link"><svg width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8,12a1,1,0,0,0,1,1h6a1,1,0,0,0,0-2H9A1,1,0,0,0,8,12Zm2,3H7A3,3,0,0,1,7,9h3a1,1,0,0,0,0-2H7A5,5,0,0,0,7,17h3a1,1,0,0,0,0-2Zm7-8H14a1,1,0,0,0,0,2h3a3,3,0,0,1,0,6H14a1,1,0,0,0,0,2h3A5,5,0,0,0,17,7Z"/></svg> <span>copy link</span></a>
-					</div>
-					<!-- end share -->
-
-					<!-- likes -->
-					<button class="asset__likes" type="button">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z"></path></svg>
-						<span>358</span>
-					</button>
-					<!-- end likes -->
-				</div>
+				<!-- end card -->
 			</div>
-			<!-- end content -->
+			{% endfor %}
+			<!-- end post -->
+		</section>
+		<!-- end new authors -->
+	</div>
+</main>
+<!-- end main content -->
 
-			<!-- sidebar -->
-			<div class="col-12 col-xl-4">
-				<div class="asset__info">
-					<div class="asset__desc">
-						<h2>Descriptions</h2>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-					</div>
+<!-- footer -->
+{% include 'include/footer.html' %}
+<!-- end footer -->
 
-					<ul class="asset__authors">
-						<li>
-							<span>Creator</span>
-							<div class="asset__author asset__author--verified">
+<!-- modal asset -->
+<div id="modal-asset" class="zoom-anim-dialog mfp-hide modal modal--asset">
+	<button class="modal__close" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			<path
+				d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" />
+		</svg></button>
+
+	<div class="row">
+		<!-- content -->
+		<div class="col-12 col-xl-8">
+			<div class="asset__item">
+				<img src="img/cover/cover-big.jpg" alt="">
+
+				<!-- share -->
+				<div class="share share--asset">
+					<a href="#" class="share__link share__link--fb"><svg width="9" height="17" viewBox="0 0 9 17"
+							fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M5.56341 16.8197V8.65888H7.81615L8.11468 5.84663H5.56341L5.56724 4.43907C5.56724 3.70559 5.63693 3.31257 6.69042 3.31257H8.09873V0.5H5.84568C3.1394 0.5 2.18686 1.86425 2.18686 4.15848V5.84695H0.499939V8.6592H2.18686V16.8197H5.56341Z" />
+						</svg> <span>share</span></a>
+					<a href="#" class="share__link share__link--tw"><svg width="16" height="12" viewBox="0 0 16 12"
+							fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M7.55075 3.19219L7.58223 3.71122L7.05762 3.64767C5.14804 3.40404 3.47978 2.57782 2.06334 1.1902L1.37085 0.501686L1.19248 1.01013C0.814766 2.14353 1.05609 3.34048 1.843 4.14552C2.26269 4.5904 2.16826 4.65396 1.4443 4.38914C1.19248 4.3044 0.972149 4.24085 0.951164 4.27263C0.877719 4.34677 1.12953 5.31069 1.32888 5.69202C1.60168 6.22165 2.15777 6.74068 2.76631 7.04787L3.28043 7.2915L2.67188 7.30209C2.08432 7.30209 2.06334 7.31268 2.12629 7.53512C2.33613 8.22364 3.16502 8.95452 4.08833 9.2723L4.73884 9.49474L4.17227 9.8337C3.33289 10.321 2.34663 10.5964 1.36036 10.6175C0.888211 10.6281 0.5 10.6705 0.5 10.7023C0.5 10.8082 1.78005 11.4014 2.52499 11.6344C4.75983 12.3229 7.41435 12.0264 9.40787 10.8506C10.8243 10.0138 12.2408 8.35075 12.9018 6.74068C13.2585 5.88269 13.6152 4.315 13.6152 3.56293C13.6152 3.07567 13.6467 3.01212 14.2343 2.42953C14.5805 2.09056 14.9058 1.71983 14.9687 1.6139C15.0737 1.41264 15.0632 1.41264 14.5281 1.59272C13.6362 1.91049 13.5103 1.86812 13.951 1.39146C14.2762 1.0525 14.6645 0.438131 14.6645 0.258058C14.6645 0.22628 14.5071 0.279243 14.3287 0.374576C14.1398 0.480501 13.7202 0.639389 13.4054 0.734722L12.8388 0.914795L12.3247 0.565241C12.0414 0.374576 11.6427 0.162725 11.4329 0.0991699C10.8978 -0.0491255 10.0794 -0.0279404 9.59673 0.14154C8.2852 0.618204 7.45632 1.84694 7.55075 3.19219Z" />
+						</svg> <span>tweet</span></a>
+					<a href="#" class="share__link share__link--link"><svg width="18" xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24">
+							<path
+								d="M8,12a1,1,0,0,0,1,1h6a1,1,0,0,0,0-2H9A1,1,0,0,0,8,12Zm2,3H7A3,3,0,0,1,7,9h3a1,1,0,0,0,0-2H7A5,5,0,0,0,7,17h3a1,1,0,0,0,0-2Zm7-8H14a1,1,0,0,0,0,2h3a3,3,0,0,1,0,6H14a1,1,0,0,0,0,2h3A5,5,0,0,0,17,7Z" />
+						</svg> <span>copy link</span></a>
+				</div>
+				<!-- end share -->
+
+				<!-- likes -->
+				<button class="asset__likes" type="button">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<path
+							d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+						</path>
+					</svg>
+					<span>358</span>
+				</button>
+				<!-- end likes -->
+			</div>
+		</div>
+		<!-- end content -->
+
+		<!-- sidebar -->
+		<div class="col-12 col-xl-4">
+			<div class="asset__info">
+				<div class="asset__desc">
+					<h2>Descriptions</h2>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+						alteration in some form, by injected humour.</p>
+				</div>
+
+				<ul class="asset__authors">
+					<li>
+						<span>Creator</span>
+						<div class="asset__author asset__author--verified">
+							<img src="img/avatars/avatar5.jpg" alt="">
+							<a href="author.html">@midinh</a>
+						</div>
+					</li>
+					<li>
+						<span>Collection</span>
+						<div class="asset__author ">
+							<img src="img/avatars/avatar9.jpg" alt="">
+							<a href="collection.html">The Meta Key</a>
+						</div>
+					</li>
+				</ul>
+
+				<!-- tabs -->
+				<ul class="nav nav-tabs asset__tabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#tab-11" role="tab" aria-controls="tab-11"
+							aria-selected="true">History</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#tab-22" role="tab" aria-controls="tab-22"
+							aria-selected="false">Bids</a>
+					</li>
+
+
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#tab-33" role="tab" aria-controls="tab-33"
+							aria-selected="false">Details</a>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade show active" id="tab-11" role="tabpanel">
+						<div class="asset__actions asset__actions--scroll" id="asset__actions--scroll">
+							<div class="asset__action asset__action--verified">
+								<img src="img/avatars/avatar10.jpg" alt="">
+								<p>Bid placed for <b>11.00 ETH</b> 4 hours ago <br>by <a href="author.html">@erikkk</a>
+								</p>
+							</div>
+
+							<div class="asset__action asset__action--verified">
+								<img src="img/avatars/avatar4.jpg" alt="">
+								<p>Bid placed for <b>10.00 ETH</b> 5 hours ago <br>by <a href="author.html">@johndoe</a>
+								</p>
+							</div>
+
+							<div class="asset__action asset__action--verified">
+								<img src="img/avatars/avatar6.jpg" alt="">
+								<p>Bid placed for <b>2.508 ETH</b> 5 hours ago <br>by <a
+										href="author.html">@n1ckname</a></p>
+							</div>
+
+							<div class="asset__action asset__action--verified">
+								<img src="img/avatars/avatar4.jpg" alt="">
+								<p>Bid placed for <b>2.2799 ETH</b> 6 hours ago <br>by <a
+										href="author.html">@johndoe</a></p>
+							</div>
+
+							<div class="asset__action asset__action--verified">
 								<img src="img/avatars/avatar5.jpg" alt="">
-								<a href="author.html">@midinh</a>
+								<p>Put on sale for <b>0.55 ETH</b> 1 days ago <br>by <a href="author.html">@midinh</a>
+								</p>
 							</div>
-						</li>
-						<li>
-							<span>Collection</span>
-							<div class="asset__author ">
-								<img src="img/avatars/avatar9.jpg" alt="">
-								<a href="collection.html">The Meta Key</a>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="tab-22" role="tabpanel">
+						<div class="asset__actions">
+							<div class="asset__action asset__action--verified">
+								<img src="img/avatars/avatar10.jpg" alt="">
+								<p>Bid placed for <b>11.00 ETH</b> 4 hours ago <br>by <a href="author.html">@erikkk</a>
+								</p>
 							</div>
-						</li>
-					</ul>
 
-					<!-- tabs -->
-					<ul class="nav nav-tabs asset__tabs" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" data-toggle="tab" href="#tab-11" role="tab" aria-controls="tab-11" aria-selected="true">History</a>
-						</li>
+							<div class="asset__action asset__action--verified">
+								<img src="img/avatars/avatar4.jpg" alt="">
+								<p>Bid placed for <b>10.00 ETH</b> 5 hours ago <br>by <a href="author.html">@johndoe</a>
+								</p>
+							</div>
 
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#tab-22" role="tab" aria-controls="tab-22" aria-selected="false">Bids</a>
-						</li>
+							<div class="asset__action asset__action--verified">
+								<img src="img/avatars/avatar6.jpg" alt="">
+								<p>Bid placed for <b>2.508 ETH</b> 5 hours ago <br>by <a
+										href="author.html">@n1ckname</a></p>
+							</div>
+						</div>
+					</div>
 
-
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#tab-33" role="tab" aria-controls="tab-33" aria-selected="false">Details</a>
-						</li>
-					</ul>
-
-					<div class="tab-content">
-						<div class="tab-pane fade show active" id="tab-11" role="tabpanel">
-							<div class="asset__actions asset__actions--scroll" id="asset__actions--scroll">
-								<div class="asset__action asset__action--verified">
-									<img src="img/avatars/avatar10.jpg" alt="">
-									<p>Bid placed for <b>11.00 ETH</b> 4 hours ago <br>by <a href="author.html">@erikkk</a></p>
-								</div>
-
-								<div class="asset__action asset__action--verified">
-									<img src="img/avatars/avatar4.jpg" alt="">
-									<p>Bid placed for <b>10.00 ETH</b> 5 hours ago <br>by <a href="author.html">@johndoe</a></p>
-								</div>
-
-								<div class="asset__action asset__action--verified">
-									<img src="img/avatars/avatar6.jpg" alt="">
-									<p>Bid placed for <b>2.508 ETH</b> 5 hours ago <br>by <a href="author.html">@n1ckname</a></p>
-								</div>
-
-								<div class="asset__action asset__action--verified">
-									<img src="img/avatars/avatar4.jpg" alt="">
-									<p>Bid placed for <b>2.2799 ETH</b> 6 hours ago <br>by <a href="author.html">@johndoe</a></p>
-								</div>
-
-								<div class="asset__action asset__action--verified">
+					<div class="tab-pane fade" id="tab-33" role="tabpanel">
+						<ul class="asset__authors asset__authors--tab">
+							<li>
+								<span>Owner</span>
+								<div class="asset__author asset__author--verified">
 									<img src="img/avatars/avatar5.jpg" alt="">
-									<p>Put on sale for <b>0.55 ETH</b> 1 days ago <br>by <a href="author.html">@midinh</a></p>
+									<a href="author.html">@midinh</a>
 								</div>
-							</div>
-						</div>
-
-						<div class="tab-pane fade" id="tab-22" role="tabpanel">
-							<div class="asset__actions">
-								<div class="asset__action asset__action--verified">
-									<img src="img/avatars/avatar10.jpg" alt="">
-									<p>Bid placed for <b>11.00 ETH</b> 4 hours ago <br>by <a href="author.html">@erikkk</a></p>
-								</div>
-
-								<div class="asset__action asset__action--verified">
-									<img src="img/avatars/avatar4.jpg" alt="">
-									<p>Bid placed for <b>10.00 ETH</b> 5 hours ago <br>by <a href="author.html">@johndoe</a></p>
-								</div>
-
-								<div class="asset__action asset__action--verified">
-									<img src="img/avatars/avatar6.jpg" alt="">
-									<p>Bid placed for <b>2.508 ETH</b> 5 hours ago <br>by <a href="author.html">@n1ckname</a></p>
-								</div>
-							</div>
-						</div>
-
-						<div class="tab-pane fade" id="tab-33" role="tabpanel">
-							<ul class="asset__authors asset__authors--tab">
-								<li>
-									<span>Owner</span>
-									<div class="asset__author asset__author--verified">
-										<img src="img/avatars/avatar5.jpg" alt="">
-										<a href="author.html">@midinh</a>
-									</div>
-								</li>
-								<li>
-									<span>Year created</span>
-									<p>2021</p>
-								</li>
-							</ul>
-						</div>
+							</li>
+							<li>
+								<span>Year created</span>
+								<p>2021</p>
+							</li>
+						</ul>
 					</div>
-					<!-- end tabs -->
-
-					<div class="asset__wrap">
-						<div class="asset__timer">
-							<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.3,8.59l.91-.9a1,1,0,0,0-1.42-1.42l-.9.91a8,8,0,0,0-9.79,0l-.91-.92A1,1,0,0,0,4.77,7.69l.92.91A7.92,7.92,0,0,0,4,13.5,8,8,0,1,0,18.3,8.59ZM12,19.5a6,6,0,1,1,6-6A6,6,0,0,1,12,19.5Zm-2-15h4a1,1,0,0,0,0-2H10a1,1,0,0,0,0,2Zm3,6a1,1,0,0,0-2,0v1.89a1.5,1.5,0,1,0,2,0Z"/></svg> Auction ends in</span>
-							<div class="asset__clock"></div>
-						</div>
-
-						<div class="asset__price">
-							<img src="img/blockchain/3.png" alt="">
-							<p>Minimum bid</p>
-							<span>0.2 ETH</span>
-						</div>
-					</div>
-
-					<!-- actions -->
-					<div class="asset__btns">
-						<button class="asset__btn asset__btn--full asset__btn--clr" type="button">Place a bid</button>
-					</div>
-					<!-- end actions -->
 				</div>
+				<!-- end tabs -->
+
+				<div class="asset__wrap">
+					<div class="asset__timer">
+						<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path
+									d="M18.3,8.59l.91-.9a1,1,0,0,0-1.42-1.42l-.9.91a8,8,0,0,0-9.79,0l-.91-.92A1,1,0,0,0,4.77,7.69l.92.91A7.92,7.92,0,0,0,4,13.5,8,8,0,1,0,18.3,8.59ZM12,19.5a6,6,0,1,1,6-6A6,6,0,0,1,12,19.5Zm-2-15h4a1,1,0,0,0,0-2H10a1,1,0,0,0,0,2Zm3,6a1,1,0,0,0-2,0v1.89a1.5,1.5,0,1,0,2,0Z" />
+							</svg> Auction ends in</span>
+						<div class="asset__clock"></div>
+					</div>
+
+					<div class="asset__price">
+						<img src="img/blockchain/3.png" alt="">
+						<p>Minimum bid</p>
+						<span>0.2 ETH</span>
+					</div>
+				</div>
+
+				<!-- actions -->
+				<div class="asset__btns">
+					<button class="asset__btn asset__btn--full asset__btn--clr" type="button">Place a bid</button>
+				</div>
+				<!-- end actions -->
 			</div>
-			<!-- end sidebar -->
 		</div>
+		<!-- end sidebar -->
 	</div>
-	<!-- end modal asset -->
+</div>
+<!-- end modal asset -->
 
-	<!-- modal wallet -->
-	<div id="modal-wallet" class="zoom-anim-dialog mfp-hide modal modal--form">
-		<button class="modal__close" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/></svg></button>
+<!-- modal wallet -->
+<div id="modal-wallet" class="zoom-anim-dialog mfp-hide modal modal--form">
+	<button class="modal__close" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			<path
+				d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" />
+		</svg></button>
 
-		<h4 class="sign__title">Connect Wallet</h4>
+	<h4 class="sign__title">Connect Wallet</h4>
 
-		<p class="modal__text">Choose one of available wallet providers or create a new wallet.</p>
+	<p class="modal__text">Choose one of available wallet providers or create a new wallet.</p>
 
-		<a href="#" class="modal__wallet">
-			<img src="{% static 'img/wallet/metamask.svg' %}" alt="">
-			<span>MetaMask</span>
-		</a>
+	<a href="#" class="modal__wallet">
+		<img src="{% static 'img/wallet/metamask.svg' %}" alt="">
+		<span>MetaMask</span>
+	</a>
 
-		<a href="#" class="modal__wallet">
-			<img src="{% static 'img/wallet/coinbase.svg' %}" alt="">
-			<span>Coinbase Wallet</span>
-		</a>
+	<a href="#" class="modal__wallet">
+		<img src="{% static 'img/wallet/coinbase.svg' %}" alt="">
+		<span>Coinbase Wallet</span>
+	</a>
 
-		<a href="#" class="modal__wallet">
-			<img src="{% static 'img/wallet/walletconnect.svg' %}" alt="">
-			<span>WalletConnect</span>
-		</a>
+	<a href="#" class="modal__wallet">
+		<img src="{% static 'img/wallet/walletconnect.svg' %}" alt="">
+		<span>WalletConnect</span>
+	</a>
 
-		<a href="#" class="modal__wallet">
-			<img src="{% static 'img/wallet/myetherwallet.svg' %}" alt="">
-			<span>MyEtherWallet</span>
-		</a>
+	<a href="#" class="modal__wallet">
+		<img src="{% static 'img/wallet/myetherwallet.svg' %}" alt="">
+		<span>MyEtherWallet</span>
+	</a>
 
-		<a href="#" class="modal__wallet">
-			<img src="{% static 'img/wallet/fortmatic.svg' %}" alt="">
-			<span>Fortmatic</span>
-		</a>
-	</div>
-	<!-- end modal wallet -->
+	<a href="#" class="modal__wallet">
+		<img src="{% static 'img/wallet/fortmatic.svg' %}" alt="">
+		<span>Fortmatic</span>
+	</a>
+</div>
+<!-- end modal wallet -->
 
 {% endblock %}

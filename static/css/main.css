@@ -745,7 +745,7 @@ body::-webkit-scrollbar-thumb {
     margin-right: 0;
     color: #fff;
     margin-left: 8px;
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
   }
@@ -5752,4 +5752,8 @@ body::-webkit-scrollbar-thumb {
   background: #6164ff !important;
   height: 4px !important;
   border-radius: 4px !important;
+}
+
+.header__nav-item a {
+  font-size: 17px; /* Здесь устанавливается размер шрифта */
 }
